@@ -13,7 +13,7 @@ public class FillZone : MonoBehaviour
 
     private Pallete pallete;
 
-    private Layer layer;
+    public Layer layer;
 
     private void Start() { }
 
