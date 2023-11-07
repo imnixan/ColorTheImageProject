@@ -196,6 +196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510034964914
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510089759736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510112927454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,6 +1609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510130914171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510148028616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,6 +2270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510174645414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510186175261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,6 +2666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510199228082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +2864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510233548831
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +4896,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510325094699
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,6 +4959,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510325748269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,7 +4978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6591520510325748268
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4998,7 +5020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
@@ -5211,6 +5233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510357192755
 GameObject:
   m_ObjectHideFlags: 0
@@ -5272,6 +5296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510381832444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,6 +5494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510389642698
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,6 +5696,7 @@ MonoBehaviour:
   number: 1
   zoneColor: {r: 0.92549026, g: 0.50980395, b: 0.27450982, a: 1}
   filledCorrect: 0
+  contour: {fileID: 6591520511885035619}
 --- !u!1 &6591520510406041686
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,6 +5758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510407524803
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,6 +5824,7 @@ MonoBehaviour:
   number: 2
   zoneColor: {r: 0.50980395, g: 0.3254902, b: 0.2392157, a: 1}
   filledCorrect: 0
+  contour: {fileID: 6591520510615696392}
 --- !u!1 &6591520510412984083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,6 +6144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510480915764
 GameObject:
   m_ObjectHideFlags: 0
@@ -6677,6 +6711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510531947066
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,6 +7576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510607173569
 GameObject:
   m_ObjectHideFlags: 0
@@ -7601,6 +7639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510609374959
 GameObject:
   m_ObjectHideFlags: 0
@@ -7662,6 +7702,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510615696394
 GameObject:
   m_ObjectHideFlags: 0
@@ -7804,6 +7846,7 @@ MonoBehaviour:
   number: 4
   zoneColor: {r: 0.8313726, g: 0.3647059, b: 0.19607845, a: 1}
   filledCorrect: 0
+  contour: {fileID: 6591520510828754028}
 --- !u!1 &6591520510628544399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8003,6 +8046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510640690490
 GameObject:
   m_ObjectHideFlags: 0
@@ -8064,6 +8109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510645535101
 GameObject:
   m_ObjectHideFlags: 0
@@ -8395,6 +8442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510690699940
 GameObject:
   m_ObjectHideFlags: 0
@@ -8580,6 +8629,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510694658719
 GameObject:
   m_ObjectHideFlags: 0
@@ -8641,6 +8692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510697538084
 GameObject:
   m_ObjectHideFlags: 0
@@ -8992,6 +9045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510737645067
 GameObject:
   m_ObjectHideFlags: 0
@@ -9182,6 +9237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510767239172
 GameObject:
   m_ObjectHideFlags: 0
@@ -9521,6 +9578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510776031508
 GameObject:
   m_ObjectHideFlags: 0
@@ -9717,6 +9776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510795512897
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,6 +9974,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510801530714
 GameObject:
   m_ObjectHideFlags: 0
@@ -10109,6 +10172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510807044554
 GameObject:
   m_ObjectHideFlags: 0
@@ -10170,6 +10235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510828754030
 GameObject:
   m_ObjectHideFlags: 0
@@ -10183,7 +10250,7 @@ GameObject:
   - component: {fileID: 6591520510828754028}
   - component: {fileID: 5852010651235309517}
   m_Layer: 5
-  m_Name: contour3 (1)
+  m_Name: contour4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10470,6 +10537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510837907474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10539,6 +10608,7 @@ MonoBehaviour:
   number: 3
   zoneColor: {r: 0.18039216, g: 0.14509805, b: 0.15686275, a: 1}
   filledCorrect: 0
+  contour: {fileID: 6591520510513505315}
 --- !u!1 &6591520510840243900
 GameObject:
   m_ObjectHideFlags: 0
@@ -10600,6 +10670,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510841057468
 GameObject:
   m_ObjectHideFlags: 0
@@ -10786,6 +10858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510853203817
 GameObject:
   m_ObjectHideFlags: 0
@@ -11421,6 +11495,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510914569784
 GameObject:
   m_ObjectHideFlags: 0
@@ -11784,6 +11860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510951773444
 GameObject:
   m_ObjectHideFlags: 0
@@ -11845,6 +11923,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520510952726731
 GameObject:
   m_ObjectHideFlags: 0
@@ -12060,6 +12140,7 @@ MonoBehaviour:
   number: 0
   zoneColor: {r: 0.94117653, g: 0.8745099, b: 0.74509805, a: 1}
   filledCorrect: 0
+  contour: {fileID: 6591520512089730053}
 --- !u!1 &6591520510979720930
 GameObject:
   m_ObjectHideFlags: 0
@@ -12252,6 +12333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511000220858
 GameObject:
   m_ObjectHideFlags: 0
@@ -12313,6 +12396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511025166081
 GameObject:
   m_ObjectHideFlags: 0
@@ -12509,6 +12594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511029184685
 GameObject:
   m_ObjectHideFlags: 0
@@ -12571,6 +12658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511029427947
 GameObject:
   m_ObjectHideFlags: 0
@@ -12581,6 +12670,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6591520511029427946}
   - component: {fileID: 6591520511029427945}
+  - component: {fileID: 3454776463390749863}
+  - component: {fileID: 4480810388469425610}
   m_Layer: 5
   m_Name: TigerImage
   m_TagString: Untagged
@@ -12628,6 +12719,46 @@ MonoBehaviour:
   - {r: 0.50980395, g: 0.3254902, b: 0.2392157, a: 1}
   - {r: 0.18039216, g: 0.14509805, b: 0.15686275, a: 1}
   - {r: 0.8313726, g: 0.3647059, b: 0.19607845, a: 1}
+  finalImage: {fileID: 6591520510325748259}
+  finishSound: {fileID: 8300000, guid: 9b69c1b7c10f13d4aaa00dcf9acb3859, type: 3}
+--- !u!222 &3454776463390749863
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591520511029427947}
+  m_CullTransparentMesh: 1
+--- !u!114 &4480810388469425610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591520511029427947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f59e4c9b8a1a70b4fb83b863c8239f44, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6591520511030102324
 GameObject:
   m_ObjectHideFlags: 0
@@ -13226,6 +13357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511079354024
 GameObject:
   m_ObjectHideFlags: 0
@@ -14137,6 +14270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511135896640
 GameObject:
   m_ObjectHideFlags: 0
@@ -14199,6 +14334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511139744705
 GameObject:
   m_ObjectHideFlags: 0
@@ -14983,6 +15120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511217630174
 GameObject:
   m_ObjectHideFlags: 0
@@ -15489,6 +15628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511238151863
 GameObject:
   m_ObjectHideFlags: 0
@@ -16383,6 +16524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511258832403
 GameObject:
   m_ObjectHideFlags: 0
@@ -16579,6 +16722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511265178009
 GameObject:
   m_ObjectHideFlags: 0
@@ -16640,6 +16785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511268172942
 GameObject:
   m_ObjectHideFlags: 0
@@ -16701,6 +16848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511275002051
 GameObject:
   m_ObjectHideFlags: 0
@@ -17598,6 +17747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511379166279
 GameObject:
   m_ObjectHideFlags: 0
@@ -17659,6 +17810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511380099212
 GameObject:
   m_ObjectHideFlags: 0
@@ -17720,6 +17873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511393326141
 GameObject:
   m_ObjectHideFlags: 0
@@ -18248,9 +18403,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -608.5836, y: -598.2827}
-      - {x: -487.2802, y: -595.5626}
-      - {x: 605.23175, y: -596.7577}
+    - - {x: -554.085, y: -200.9862}
+      - {x: -517.5598, y: -430.04468}
+      - {x: -478.58807, y: -521.93604}
+      - {x: -419.18738, y: -517.1526}
+      - {x: 421.58716, y: -477.07922}
+      - {x: 512.37775, y: -489.45972}
       - {x: 528.55927, y: -438.23956}
       - {x: 442.72192, y: -411.90173}
       - {x: 347.84735, y: -411.83234}
@@ -18357,9 +18515,9 @@ PolygonCollider2D:
       - {x: 384.3014, y: -351.0088}
       - {x: 470.84094, y: -408.72882}
       - {x: 583.9706, y: -464.56787}
-      - {x: 603.7322, y: -596.85645}
-      - {x: 606.0991, y: 599.8433}
-      - {x: -600.6209, y: 601.7398}
+      - {x: 566.5906, y: -239.88452}
+      - {x: 502.9281, y: 463.65753}
+      - {x: -520.14746, y: 465.5539}
 --- !u!1 &6591520511445453215
 GameObject:
   m_ObjectHideFlags: 0
@@ -18826,6 +18984,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511479439762
 GameObject:
   m_ObjectHideFlags: 0
@@ -20490,6 +20650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511536377555
 GameObject:
   m_ObjectHideFlags: 0
@@ -20551,6 +20713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511537517285
 GameObject:
   m_ObjectHideFlags: 0
@@ -20612,6 +20776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511548009914
 GameObject:
   m_ObjectHideFlags: 0
@@ -20808,6 +20974,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511560291482
 GameObject:
   m_ObjectHideFlags: 0
@@ -20869,6 +21037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511573089742
 GameObject:
   m_ObjectHideFlags: 0
@@ -20930,6 +21100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511579151763
 GameObject:
   m_ObjectHideFlags: 0
@@ -20991,6 +21163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511582952376
 GameObject:
   m_ObjectHideFlags: 0
@@ -21052,6 +21226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511596724626
 GameObject:
   m_ObjectHideFlags: 0
@@ -21113,6 +21289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511601092534
 GameObject:
   m_ObjectHideFlags: 0
@@ -21174,6 +21352,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511610153179
 GameObject:
   m_ObjectHideFlags: 0
@@ -21640,6 +21820,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511639263124
 GameObject:
   m_ObjectHideFlags: 0
@@ -22907,6 +23089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511734255285
 GameObject:
   m_ObjectHideFlags: 0
@@ -23794,6 +23978,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511788042222
 GameObject:
   m_ObjectHideFlags: 0
@@ -24519,6 +24705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511861995928
 GameObject:
   m_ObjectHideFlags: 0
@@ -24580,6 +24768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511885035629
 GameObject:
   m_ObjectHideFlags: 0
@@ -24717,6 +24907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520511937046186
 GameObject:
   m_ObjectHideFlags: 0
@@ -26107,6 +26299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520512002445663
 GameObject:
   m_ObjectHideFlags: 0
@@ -26168,6 +26362,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520512002616023
 GameObject:
   m_ObjectHideFlags: 0
@@ -27378,6 +27574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520512115998068
 GameObject:
   m_ObjectHideFlags: 0
@@ -27439,6 +27637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filledCorrect: 0
   layer: {fileID: 0}
+  fillSound: {fileID: 8300000, guid: a241f26419d0b7f47bb5d27c71481ae5, type: 3}
+  wrongColorSound: {fileID: 8300000, guid: 79ec12f99b198b34b970fd3f552fccfc, type: 3}
 --- !u!1 &6591520512120578574
 GameObject:
   m_ObjectHideFlags: 0

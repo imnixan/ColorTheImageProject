@@ -35,7 +35,7 @@ public class FillPiece : MonoBehaviour
         {
             mouseTap = false;
             Vector2 newMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (Vector2.Distance(newMousePos, mousePos) < 0.5f)
+            if (Vector2.Distance(newMousePos, mousePos) < 0.1f)
             {
                 fillZone.OnPieceClick();
             }

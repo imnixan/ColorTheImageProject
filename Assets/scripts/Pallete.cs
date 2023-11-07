@@ -8,24 +8,31 @@ public class Pallete : MonoBehaviour
 
     private ColorSample[] colorsUI;
 
-    [SerializeField]
-    private Image palleteColor;
-
-    public void SetCurrentColor(Color color)
+    public void SetCurrentColor(Color color, int number)
     {
         currentColor = color;
 
-        palleteColor.color = currentColor;
+        foreach (var brush in colorsUI)
+        {
+            if (brush.number == number)
+            {
+                brush.ChooseAsCurrent();
+            }
+            else
+            {
+                brush.UnChoose();
+            }
+        }
     }
 
     public void Init(ImagePrefab image)
     {
         colorsUI = GetComponentsInChildren<ColorSample>();
         currentColor = image.palleteColor[0];
-        palleteColor.color = currentColor;
         for (int i = 0; i < image.palleteColor.Length; i++)
         {
             colorsUI[i].Init(image.palleteColor[i], this);
         }
+        colorsUI[0].ChooseAsCurrent();
     }
 }

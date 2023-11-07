@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class Layer : MonoBehaviour
 {
@@ -13,8 +14,14 @@ public class Layer : MonoBehaviour
 
     public bool filledCorrect;
 
+    [SerializeField]
+    private Image contour;
+
+    private ImagePrefab baseImage;
+
     private void Start()
     {
+        baseImage = GetComponentInParent<ImagePrefab>();
         fillZones = GetComponentsInChildren<FillZone>();
         foreach (var zone in fillZones)
         {
@@ -33,5 +40,7 @@ public class Layer : MonoBehaviour
             }
         }
         filledCorrect = true;
+        contour.DOColor(new Color(0, 0, 0, 0), 0.5f).Play();
+        baseImage.LayerFinished();
     }
 }

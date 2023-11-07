@@ -2,9 +2,12 @@
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.Events;
 
 public class FillZone : MonoBehaviour
 {
+    public static event UnityAction zoneFilled;
+
     public bool filledCorrect;
 
     private TextMeshProUGUI zoneNumber;
@@ -14,6 +17,10 @@ public class FillZone : MonoBehaviour
     private Pallete pallete;
 
     public Layer layer;
+
+    [SerializeField]
+    private AudioClip fillSound,
+        wrongColorSound;
 
     private void Start() { }
 
@@ -34,7 +41,19 @@ public class FillZone : MonoBehaviour
             {
                 filledCorrect = true;
                 layer.ZoneColored();
+                zoneFilled?.Invoke();
                 zoneNumber.DOColor(new Color(0, 0, 0, 0), 0.5f).Play();
+                if (PlayerPrefs.GetInt("Sound", 1) == 1)
+                {
+                    AudioSource.PlayClipAtPoint(fillSound, Vector2.zero);
+                }
+            }
+            else
+            {
+                if (PlayerPrefs.GetInt("Sound", 1) == 1)
+                {
+                    AudioSource.PlayClipAtPoint(wrongColorSound, Vector2.zero);
+                }
             }
 
             foreach (var piece in pieces)
