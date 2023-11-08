@@ -15,8 +15,10 @@ public class PaintMenu : MonoBehaviour
         }
     }
 
-    public void PaintTiger()
+    public void PaintTiger(int paint)
     {
+        PlayerPrefs.SetInt("Image", paint);
+        PlayerPrefs.Save();
         SceneManager.LoadScene("PaintScene");
     }
 
